@@ -46,6 +46,16 @@ account data is handled, is in **[PRIVACY.md](PRIVACY.md)**.
 
 Issues here are public, so please leave personal details out. We'll reply in the issue.
 
+## The logo
+
+Transparent files, free to use for anything about skullforge.net.
+
+| On dark backgrounds | On light backgrounds |
+|---|---|
+| <img src="assets/skullforge-lockup-dark-bg.png" alt="Skullforge logo for dark backgrounds" width="320"> | <img src="assets/skullforge-lockup-light-bg.png" alt="Skullforge logo for light backgrounds" width="320"> |
+| <img src="assets/skullforge-mark-dark-bg-1024.png" alt="Skullforge mark for dark backgrounds" width="120"> | <img src="assets/skullforge-mark-light-bg-1024.png" alt="Skullforge mark for light backgrounds" width="120"> |
+| [lockup](assets/skullforge-lockup-dark-bg.png) · [mark PNG](assets/skullforge-mark-dark-bg-1024.png) · [mark SVG](assets/skullforge-mark.svg) | [lockup](assets/skullforge-lockup-light-bg.png) · [mark PNG](assets/skullforge-mark-light-bg-1024.png) · [mark SVG](assets/skullforge-mark-light-bg.svg) |
+
 ## This repository
 
 Information only: no code, and nothing that runs. It holds what skullforge.net says about itself, so it can be read
