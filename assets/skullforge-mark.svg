@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <defs>
+    <linearGradient id="ember" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F59E42"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F59E42" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#F59E42" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- reticle -->
+  <circle cx="120" cy="120" r="100" stroke="#F5F5F0" stroke-width="5"/>
+  <circle cx="120" cy="120" r="88" stroke="#F5F5F0" stroke-opacity="0.14" stroke-width="2"/>
+  <g stroke="#F5F5F0" stroke-width="5" stroke-linecap="square">
+    <line x1="120" y1="6" x2="120" y2="30"/>
+    <line x1="120" y1="210" x2="120" y2="234"/>
+    <line x1="6" y1="120" x2="30" y2="120"/>
+    <line x1="210" y1="120" x2="234" y2="120"/>
+  </g>
+  <g stroke="#F5F5F0" stroke-opacity="0.35" stroke-width="2">
+    <line x1="49" y1="49" x2="56" y2="56"/>
+    <line x1="191" y1="191" x2="184" y2="184"/>
+    <line x1="49" y1="191" x2="56" y2="184"/>
+  </g>
+  <circle cx="190.7" cy="49.3" r="9" fill="url(#ember)"/>
+  <!-- faceted cranium -->
+  <path d="M120 46 L156 54 L178 84 L176 118 L162 138 L150 162 L90 162 L78 138 L64 118 L62 84 L84 54 Z" fill="#F5F5F0"/>
+  <g fill="#D9D9D0">
+    <path d="M120 46 L156 54 L120 80 Z"/>
+    <path d="M84 54 L62 84 L120 80 Z"/>
+    <path d="M178 84 L176 118 L150 96 Z"/>
+    <path d="M64 118 L78 138 L92 126 Z"/>
+    <path d="M162 138 L150 162 L140 146 Z"/>
+  </g>
+  <g fill="#ECECE4">
+    <path d="M156 54 L178 84 L120 80 Z"/>
+    <path d="M62 84 L64 118 L90 96 Z"/>
+  </g>
+  <!-- ember behind the eyes -->
+  <circle cx="96" cy="108" r="22" fill="url(#glow)"/>
+  <circle cx="144" cy="108" r="22" fill="url(#glow)"/>
+  <!-- eye sockets -->
+  <path d="M74 98 L108 102 L112 114 L102 126 L82 124 L74 112 Z" fill="#0B0E14"/>
+  <path d="M166 98 L132 102 L128 114 L138 126 L158 124 L166 112 Z" fill="#0B0E14"/>
+  <path d="M84 104 L104 106.5 L106 114 L100 120 L87 119 Z" fill="url(#ember)"/>
+  <path d="M156 104 L136 106.5 L134 114 L140 120 L153 119 Z" fill="url(#ember)"/>
+  <!-- nose -->
+  <path d="M120 128 L128 142 L112 142 Z" fill="#0B0E14"/>
+  <!-- teeth -->
+  <g fill="#0B0E14">
+    <path d="M97 150 L101 150 L101 162 L97 162 Z"/>
+    <path d="M108 150 L112 150 L112 162 L108 162 Z"/>
+    <path d="M118 150 L122 150 L122 162 L118 162 Z"/>
+    <path d="M128 150 L132 150 L132 162 L128 162 Z"/>
+    <path d="M139 150 L143 150 L143 162 L139 162 Z"/>
+  </g>
+  <!-- jaw -->
+  <path d="M94 166 L146 166 L140 182 L100 182 Z" fill="#F5F5F0"/>
+  <path d="M120 166 L146 166 L140 182 Z" fill="#D9D9D0"/>
+</svg>

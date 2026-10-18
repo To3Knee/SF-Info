@@ -1,0 +1,25 @@
+name: Privacy request
+description: Ask a question about privacy, or ask for your data to be deleted.
+title: "Privacy request"
+labels: ["privacy"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Issues are public.** Please don't put personal details here (no addresses, phone numbers or account
+        details). Say what you'd like, and we'll reply in this issue.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What would you like?
+      options:
+        - A question about the privacy statement
+        - Delete what Skullforge holds about me
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Anything we should know
+      description: Without personal details.
